@@ -1,0 +1,32 @@
+div#skill_wrap {
+  margin-bottom: 70px;
+  /* padding: 0 6.6%; */
+  box-sizing: border-box;
+}
+
+
+section#skill h2 {
+  color: #fff;
+}
+
+div#skill_slide_wrap {
+  padding-left: 6.6%;
+  box-sizing: border-box;
+}
+
+div#skill_slide {
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+div#skill_slide>p{
+  color: #fff;
+}
+
+div#skill_slide>p:nth-child(1) {
+  margin-bottom: 20px;
+  font: 700 6.4vw 'Montserrat';
+}
+div#skill_slide>p:nth-child(2) {
+  font: 300 4.8vw 'Noto Sans KR';
+}

@@ -1,0 +1,18 @@
+div#header_wrap {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 99;
+  padding: 0 6.6%;
+  box-sizing: border-box;
+}
+
+div#header_wrap header {
+
+}
+
+div#test_box {
+  width: 34px;
+  height: 34px;
+  background: #fff;
+}

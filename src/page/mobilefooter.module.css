@@ -1,0 +1,10 @@
+div#footer_wrap {
+  padding: 0px 6.6% 40px;
+  box-sizing: border-box;
+}
+
+footer p {
+  font: 300 4.2vw 'Noto Sans KR';
+  color: #fff;
+  text-align: center;
+}

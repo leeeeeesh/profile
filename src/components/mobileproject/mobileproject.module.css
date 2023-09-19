@@ -1,0 +1,15 @@
+div#project_wrap {
+  margin-bottom: 70px;
+  padding: 0 6.6%;
+  box-sizing: border-box;
+}
+
+section#project h2 {
+  color: #fff;
+}
+
+div#project_cont_wrap {
+  width: 100%;
+  background: #fff;
+  border-radius: 50px;
+}
