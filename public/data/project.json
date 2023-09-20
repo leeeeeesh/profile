@@ -1,0 +1,23 @@
+[
+  {
+    "id":"000",
+    "path":"http://tkdgusftp.dothome.co.kr/project_01/",
+    "pcImg":"./images/project_01_pc.jpg",
+    "moImg":"./images/project_01_mo.jpg",
+    "text":"뮤지컬 예약 사이트를 주제로 제작한 적응형 웹사이트 입니다. 순수자바스크립트로 슬라이드, 스크롤 애니메이션을 만들었고, 공연정보와 고객센터 부분은 Axios를 활용해서 미리 작성해놓은 데이터를 불러오게했습니다."
+  },
+  {
+    "id":"001",
+    "path":"http://tkdgusftp.dothome.co.kr/team_project/",
+    "pcImg":"./images/project_02_pc.jpg",
+    "moImg":"",
+    "text":"팀 프로젝트로 제작한 웹사이트 입니다. 페이지 전체적으로 GSAP의 ScrollTrigger을 활용한 스크롤 애니메이션이 들어가있고, 페이지 마지막에는 Class와 Axios를 활용해서 슬라이드와 클릭했을때 나오는 모달창을 만들었습니다."
+  },
+  {
+    "id":"002",
+    "path":"https://aquamarine-sunflower-187bf7.netlify.app/",
+    "pcImg":"./images/project_03_pc.jpg",
+    "moImg":"./images/project_03_mo.jpg",
+    "text":"text text text text text text text text text text text text text text text text"
+  }
+]
