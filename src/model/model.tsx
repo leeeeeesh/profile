@@ -9,3 +9,13 @@ export interface skillType{
 
 // 객체를 배열로 확장시켜주는것
 export interface skillTypeArray extends Array<skillType>{}
+
+export interface projectType{
+  id:string,
+  path:string,
+  pcImg:string,
+  moImg:string,
+  text:string
+}
+
+export interface projectTypeArray extends Array<projectType>{}

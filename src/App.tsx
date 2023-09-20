@@ -5,6 +5,10 @@ import MobileHome from './page/MobileHome';
 
 
 export default function App() {
+  let deviceWidth = null;
+  // let pathName=window.location.pathname;
+
+  // let mobilePath=pathName.slice(19);
 
   let router = createBrowserRouter([{
     path:'/',
@@ -14,6 +18,16 @@ export default function App() {
       element:<MobileHome/>
     }]
   }])
+
+ 
+
+        window.addEventListener('resize',()=>{        
+        deviceWidth=window.innerWidth;        
+        if(deviceWidth>768){          
+        document.location.replace(`http://tkdgusftp.dothome.co.kr/profile/`)          
+        } 
+
+            })  
 
   return (
     <div>

@@ -35,7 +35,8 @@ ul#skipmenu_list a:focus {
 }
 
 .title_name {
-  padding-bottom: 45px;
+  /* padding-bottom: 45px; */
+  padding-bottom: 12vw;
   font: 700 8vw 'Noto sans KR'; 
   text-transform: uppercase;
   text-align: center;

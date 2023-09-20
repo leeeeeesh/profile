@@ -8,8 +8,30 @@ section#project h2 {
   color: #fff;
 }
 
-div#project_cont_wrap {
+ul#project_cont_wrap>li {
+  margin-bottom: 8vw;
+  padding: 10.6vw 0;
   width: 100%;
   background: #fff;
   border-radius: 50px;
+  box-sizing: border-box;
+}
+
+ul#project_cont_wrap>li:nth-child(2n) {
+  background: #FFB342;
+}
+
+
+ul#project_cont_wrap>li:nth-child(2n) div>button {
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+ul#project_cont_wrap>li:nth-child(2n) div>button.selected {
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+ul#project_cont_wrap>li:nth-child(2n) div img {
+  border: 2px solid #fff;
 }
