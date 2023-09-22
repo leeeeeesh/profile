@@ -35,7 +35,7 @@ export default function MobileContact() {
         <h2 className='title_name'>Contact</h2>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input name='user_name' type="text" placeholder='NAME'/>
+          <input name='user_name' type="text" placeholder='NAME' required/>
           <input name='user_email' type="email" placeholder='E-MAIL' required />
           <textarea name='message' placeholder='MESSAGE' required></textarea>
 
