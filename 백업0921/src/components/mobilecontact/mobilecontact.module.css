@@ -1,0 +1,54 @@
+div#contact_wrap {
+  margin-bottom: 70px;
+  padding: 0 6.6%;
+  box-sizing: border-box;
+}
+
+section#contact {
+  padding: 10.6vw 0;
+  width: 100%;
+  min-height: 350px;
+  background: #FFB342;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+section#contact>form {
+  padding: 0 6.6%;
+  box-sizing: border-box;
+}
+
+section#contact input,
+section#contact textarea {
+  display: block;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+  background: #F4F4F4;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  font: 300 4.8vw 'Noto Sans KR';
+}
+
+section#contact input {
+  height: 50px;
+}
+
+section#contact textarea {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 175px;
+}
+
+section#contact button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: #1F1F1F;
+  border-radius: 50px;
+  font: 700 4.8vw 'Noto Sans KR';
+  color: #fff;
+  text-transform: uppercase;
+}

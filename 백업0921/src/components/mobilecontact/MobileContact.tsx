@@ -1,7 +1,6 @@
 import React, { useRef } from 'react'
 import emailjs from "@emailjs/browser";
 import styles from './mobilecontact.module.css'
-import { useForm } from 'react-hook-form';
 
 export default function MobileContact() {
   // const form = React.useRef(null);
@@ -27,17 +26,15 @@ export default function MobileContact() {
     );
   };
 
-  // const { register } = useForm();
-
   return (
     <div id={styles.contact_wrap}>
       <section id={styles.contact}>
         <h2 className='title_name'>Contact</h2>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input name='user_name' type="text" placeholder='NAME'/>
-          <input name='user_email' type="email" placeholder='E-MAIL' required />
-          <textarea name='message' placeholder='MESSAGE' required></textarea>
+          <input name='user_name' type="text" placeholder='NAME' />
+          <input name='user_email' type="email" placeholder='E-MAIL' />
+          <textarea name='message' placeholder='MESSAGE'></textarea>
 
           <button type='submit'>Send</button>
         </form>

@@ -12,8 +12,7 @@ div#header_wrap header {
 }
 
 div#test_box {
-  width: 16vw;
-  height: 6.4vw;
-  background: url('/public/images/logo.png') no-repeat center;
-  background-size: contain;
+  width: 34px;
+  height: 34px;
+  background: #fff;
 }
