@@ -1,4 +1,0 @@
-div.skill_wrap .swiper-slide:not(:last-child) {
-  height: auto !important;
-  border-right: 1px solid #fff;
-}
