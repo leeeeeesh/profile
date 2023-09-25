@@ -37,6 +37,26 @@
   {
     "id":"007",
     "title":"08. React",
-    "text":"Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text"
+    "text":"CSR(Client Side Rendering)과 SPA(Single Page Application) 구현.\nReact-Router-Dom, <Link>, useNavigate() 컴포넌트 링크 연동."
+  },
+  {
+    "id":"008",
+    "title":"09. React",
+    "text":"<Outlet> 객체를 활용하여 효율적인 랜더링 구현 (Header, Footer 고정). React-device-detact  API를 사용하여 모바일 전용 router 분리, 적응형 모바일웹 구현."
+  },
+  {
+    "id":"009",
+    "title":"10. React",
+    "text":"모바일 Accordionmenu(아코디언메뉴) 인터렉션 구현 (2Depth 객체).\nJson 파일을 활용한 Products 객체 구조화. Axios 비동기 통신을 활용한 객체 랜더링."
+  },
+  {
+    "id":"010",
+    "title":"11. React",
+    "text":"useState(), filter(), map()을 활용한 데이터 필터링 (카테고리).\nuseParams()를 활용해 Product Id를 구분하여 상세페이지 구현."
+  },
+  {
+    "id":"011",
+    "title":"12. React",
+    "text":"Firebase Authentication 로그인 기능 및 Realtime Database 활용한 실시간 상품 데이터 랜더링."
   }
 ]

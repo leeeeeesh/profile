@@ -11,9 +11,10 @@ div#header_wrap header {
 
 }
 
-div#test_box {
+h1#logo {
   width: 16vw;
   height: 6.4vw;
   background: url('/public/images/logo.png') no-repeat center;
   background-size: contain;
+  text-indent: -9999px;
 }
