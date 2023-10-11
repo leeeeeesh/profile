@@ -23,7 +23,7 @@ export default function App() {
         window.addEventListener('resize',()=>{        
           deviceWidth=window.innerWidth;        
           if(deviceWidth>768){          
-          document.location.replace(`http://tkdgusftp.dothome.co.kr/profile/`)          
+          document.location.replace(`http://esanghyun.dothome.co.kr/profile/`)          
           } 
 
         })  
